@@ -1,0 +1,38 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.controls {
+  padding-left: 50px;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.centeredImages {
+  width: 250px;
+  height: 250px;
+}
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(img_navsprites.gif) 0 0;
+}
+
+#next {
+  width: 43px;
+  height: 44px;
+  background: url(img_navsprites.gif) -91px 0;
+}

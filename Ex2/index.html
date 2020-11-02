@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="rotatingPictures.js"></script>
+    <h1>Rotating pictures</h1>
+    <div class="center">
+      <img id="myImg" class="centeredImages" src="http://i.imgur.com/tI5jq2c.jpg" />
+      <br />
+      <div class="controls">
+        <input onClick = "moveBackwards()" type="image" id="home" src="left.png" width="1" height="1" />
+        <input onClick="goHome()" type="image" id="next" src="home.png" width="1" height="1" />
+        <input
+          onClick="moveForward()"
+          type="image"
+          id="home"
+          src="right.png"
+          width="2"
+          height="2"
+        />
+      </div>
+    </div>
+  </body>
+</html>
